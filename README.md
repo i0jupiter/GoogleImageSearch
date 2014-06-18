@@ -1,3 +1,5 @@
+Update: Something went wrong with Gitbug repo. Trying to fix it.
+
 This is an Android application that does image search on Google. 
 
 Time spent: 25 hours

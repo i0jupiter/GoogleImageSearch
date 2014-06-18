@@ -1,3 +1,5 @@
+Update: Added video walkthrough.
+
 Update: Something went wrong with Gitbug repo. Trying to fix it.
 
 This is an Android application that does image search on Google. 
@@ -25,3 +27,10 @@ Advanced: Basically everything but sharing of images.
  - Use the ActionBar SearchView or custom layout as the query box instead of an EditText
  - Replace Filter Settings Activity with a lightweight modal overlay
  - Improve the user interface and experiment with image assets and/or styling and coloring
+
+
+Walkthrough of all user stories:
+
+![Video Walkthrough](GoogleImageSearch.gif)
+
+GIF created with [LiceCap](http://www.cockos.com/licecap/).

@@ -1,0 +1,18 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="${packageName}.${activityClass}" >
+
+    <com.loopj.android.image.SmartImageView
+        android:id="@+id/ivImageDisplay"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true"
+        android:background="@android:color/black"
+        android:scrollbars="horizontal|vertical"
+        android:fadeScrollbars="true"
+        android:src="@android:drawable/screen_background_dark" />
+
+</RelativeLayout>

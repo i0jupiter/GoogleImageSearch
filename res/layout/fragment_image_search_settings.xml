@@ -1,0 +1,84 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#bf000000"
+    tools:context="${packageName}.${activityClass}">
+    
+    <!-- Layout of the search settings dialog
+         Customized in spinner_search_filter.xml -->
+    
+    <TextView
+        android:id="@+id/tvImageSearchSettingsDialogTitle"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:background="#bf000000"
+        android:text="@string/title_activity_image_search_menu"
+        android:textSize="25sp"
+        android:textStyle="italic"
+        android:textColor="@android:color/holo_blue_dark"
+        android:shadowColor="@android:color/holo_blue_light"
+	    android:shadowRadius="1.5"
+	    android:shadowDx="0"
+	    android:shadowDy="3" />
+        
+    <Spinner
+        android:id="@+id/spImageSize"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/tvImageSearchSettingsDialogTitle"
+        android:layout_alignLeft="@+id/tvImageSearchSettingsDialogTitle"
+        android:layout_alignRight="@+id/tvImageSearchSettingsDialogTitle"
+        android:layout_marginTop="40dp"
+        android:background="#e6000000"
+        android:singleLine="true" />
+    
+    <Spinner
+        android:id="@+id/spImageColor"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spImageSize"
+        android:layout_alignLeft="@+id/spImageSize"
+        android:layout_marginTop="20dp"
+        android:background="#e6000000"
+        android:singleLine="true" />
+    
+    <Spinner
+        android:id="@+id/spImageType"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spImageColor"
+        android:layout_alignLeft="@+id/spImageColor"
+        android:layout_marginTop="20dp"
+        android:background="#e6000000"
+        android:singleLine="true" />
+    
+    <Spinner
+        android:id="@+id/spImageFromSite"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spImageType"
+        android:layout_alignLeft="@+id/spImageType"
+        android:layout_marginTop="20dp"
+        android:background="#e6000000"
+        android:singleLine="true" />
+    
+    <Button
+        android:id="@+id/btnSettingsDone"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/spImageFromSite"
+        android:layout_alignLeft="@+id/spImageFromSite"
+        android:layout_marginTop="20dp"
+        android:background="#bf000000"
+        android:text="@string/btnSettingsDoneHint" 
+        android:textSize="20sp"
+	    android:textStyle="italic"
+	    android:gravity="left"  
+	    android:textColor="@android:color/holo_blue_dark"         
+	    android:padding="5dip" />
+
+</RelativeLayout>
